@@ -34,8 +34,8 @@ jobs:
     uses: laurentsimon/slsa-github-generator-ko/.github/workflows/slsa3-builder.yml@main
     with:
       args: -B --platform=linux/amd64,linux/arm64,linux/386,linux/arm --tags=tag5,tag6 .
-      username: laurentsimon
-      envs: KO_DOCKER_REPO=docker.io/laurentsimon,GIT_VERSION=${{needs.args.outputs.version}},GIT_SOMETHING=${{needs.args.outputs.something}}
+      username: anudeep47
+      envs: KO_DOCKER_REPO=docker.io/slsa-repo,GIT_VERSION=${{needs.args.outputs.version}},GIT_SOMETHING=${{needs.args.outputs.something}}
     secrets:
       password: ${{ secrets.DOCKER_TOKEN }}
 
