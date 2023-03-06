@@ -35,7 +35,7 @@ jobs:
     with:
       args: -B --platform=linux/amd64,linux/arm64,linux/386,linux/arm --tags=tag5,tag6 .
       username: anudeep47
-      envs: KO_DOCKER_REPO=docker.io/slsa-repo,GIT_VERSION=${{needs.args.outputs.version}},GIT_SOMETHING=${{needs.args.outputs.something}}
+      envs: KO_DOCKER_REPO=docker.io/anudeep47,GIT_VERSION=${{needs.args.outputs.version}},GIT_SOMETHING=${{needs.args.outputs.something}}
     secrets:
       password: ${{ secrets.DOCKER_TOKEN }}
 
