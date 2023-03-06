@@ -1,4 +1,4 @@
-module laurentsimon/helloworld
+module akanteka/helloworld
 
 go 1.18
 
