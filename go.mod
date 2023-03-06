@@ -1,4 +1,4 @@
-module slsa-repo/helloworld
+module anudeep47/slsa-repo
 
 go 1.18
 
