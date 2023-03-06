@@ -1,4 +1,4 @@
-module akanteka/helloworld
+module slsa-repo/helloworld
 
 go 1.18
 
